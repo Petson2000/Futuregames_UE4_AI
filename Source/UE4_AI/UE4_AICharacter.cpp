@@ -79,7 +79,7 @@ void AUE4_AICharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
 void AUE4_AICharacter::OnResetVR()
 {
-	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
+	//UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
 
 void AUE4_AICharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
